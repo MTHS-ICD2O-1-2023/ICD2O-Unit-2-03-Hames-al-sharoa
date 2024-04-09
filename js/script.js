@@ -13,6 +13,6 @@ function enterClicked() {
   const streetnumber= parseInt(document.getElementById("number-entered").value)
 
   // output
-  document.getElementById("user-info").innerHTML =
-    "Your info is: " + streetName + ", age " + streetnumber + "."
+  document.getElementById("street-address").innerHTML =
+    "Your answer is: " + streetName + ", address " + streetnumber + "."
 }
